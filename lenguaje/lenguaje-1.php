@@ -4,10 +4,6 @@ $variable = "Hola Mundo";
 
 echo $variable."</br>";
 
-$variable = "Cambio";
-
-print $variable."</br>";
-
 $otra_variable =  "SOY OTRA.";
 
 echo '$otra_variable</br>';
