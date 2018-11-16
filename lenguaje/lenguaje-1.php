@@ -16,8 +16,6 @@ define('tres', 3);
 
 echo tres."</br>";
 
-// String, Integer, Float, Boolean 
-
 $string = "<strong>soy un string</strong></br>";
 
 echo $string;
