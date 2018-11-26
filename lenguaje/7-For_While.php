@@ -17,7 +17,7 @@ foreach ($nombres as $value) {
      echo $value.'<br>';
 }
 
-$asociativo = array('color' => 'verde', 'precio' => 300);
+$asociativo = array('Producto'=>'Jarron','Color' => 'verde', 'Precio' => 200);
 
 foreach ($asociativo as $key => $value) {
     echo "$key -> $value<br>";
