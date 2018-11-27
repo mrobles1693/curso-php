@@ -20,7 +20,12 @@
             $deportista = new Deportista;
             $deportista->edad = 25;
             echo 'Edad: '.$deportista->edad.'<br>';
-            echo 'Edad: '.$deportista->edad.'<br>';
+            $deportista->altura = 1.70;
+            echo 'Altura: '.$deportista->altura.'<br>';
+            $deportista->pais = 'Peru';
+            echo 'Pais: '.$deportista->pais.'<br>';
+            $deportista->deporte = 'Basketball';
+            echo 'Edad: '.$deportista->deporte.'<br>';
         ?>
     </body>
 </html>
