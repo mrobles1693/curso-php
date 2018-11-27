@@ -4,11 +4,12 @@ class Persona{
     private $nombre;
     private $apellido;
     public $edad;
+    public $altura;
+    public $peso;
     
     public function __construct(){
         $this->nombre = 'Mario';
         $this->apellido = 'Robles';
-        $this->edad = 25;
     }
     
     public function nombre(){
