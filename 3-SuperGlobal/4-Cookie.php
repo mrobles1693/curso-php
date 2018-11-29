@@ -21,5 +21,3 @@ if(isset($_GET['eliminar']) && $_GET['eliminar']=='true'){
 
 <a href='?crear=true'>Crear Cookie</a>
 <a href='?eliminar=true'>Eliminar Cookie</a>
-
-<a href='../index.php'>Index</a>
