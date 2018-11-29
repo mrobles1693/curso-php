@@ -1,5 +1,5 @@
-<?php require_once './lenguaje/10-OrientadoObjetos.php'?>
-<?php require_once './lenguaje/11-Herencia.php'?>
+<?php require_once './1-lenguaje/10-OrientadoObjetos.php'?>
+<?php require_once './1-lenguaje/11-Herencia.php'?>
 <html>
     <head>
         <meta charset="UTF-8">
