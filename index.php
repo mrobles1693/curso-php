@@ -28,10 +28,6 @@
         $deportista->deporte = 'Basketball';
         echo 'Edad: ' . $deportista->deporte . '<br>';
 
-        $resultado = null;
-        if (!empty($_COOKIE['galleta'])) {
-            $resultado = $_COOKIE['galleta'];
-        }
         ?>
     </body>
 </html>
