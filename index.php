@@ -1,5 +1,6 @@
 <?php require_once './1-lenguaje/10-OrientadoObjetos.php'?>
 <?php require_once './1-lenguaje/11-Herencia.php'?>
+<?php require_once './3-SuperGlobal/4-Cookie.php'?>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -26,6 +27,8 @@
             echo 'Pais: '.$deportista->pais.'<br>';
             $deportista->deporte = 'Basketball';
             echo 'Edad: '.$deportista->deporte.'<br>';
+            
+            echo $_COOKIE['galleta'];
         ?>
     </body>
 </html>
