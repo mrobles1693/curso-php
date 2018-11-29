@@ -1,4 +1,20 @@
-<?php ?>
+<?php
+
+if (isset($_POST['login'])) {
+    $usuario = htmlspecialchars($_POST['usuario']);
+    $password = htmlspecialchars($_POST['password']);
+    
+    if($usuario == 'root' && $password=='toor'){
+        session_start();
+        $_SESSION['usuario'] = $usuario;
+        header('location: privado.php');
+    }else{
+        header('location: 5-Session.php');
+    }
+    
+}
+
+?>
 
 <h1>Inicio de sesion</h1>
 <strong>Usuario=root : Password=toor</strong>
